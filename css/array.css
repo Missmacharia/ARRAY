@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&family=Montserrat&family=Poppins&family=Rubik:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color:  hsl(226, 43%, 10%);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+#company_details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+} 
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .info img{
+    border-radius: 100px;
+    margin-left: 50px;
+} */
+    
