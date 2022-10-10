@@ -313,61 +313,61 @@ details. forEach((company_details, index)=>{
   aEmail.href =company_details.email
   aEmail.textContent= company_details.email
 
-  const div2= document.createElement('div')
-  const street= document.createElement('p')
-  street.textContent= company_details.address.street
-  const suite =document.createElement('p')
-  suite.textContent= company_details.address.suite
-  const city =document.createElement('p')
-  city.textContent =company_details.address.city
-  const zipcode= document.createElement('p')
-  zipcode.textContent =company_details.address.zipcode
+  // const div2= document.createElement('div')
+  // const street= document.createElement('p')
+  // street.textContent= company_details.address.street
+  // const suite =document.createElement('p')
+  // suite.textContent= company_details.address.suite
+  // const city =document.createElement('p')
+  // city.textContent =company_details.address.city
+  // const zipcode= document.createElement('p')
+  // zipcode.textContent =company_details.address.zipcode
 
-  div2.appendChild(street)
-  div2.appendChild(suite)
-  div2.appendChild(city)
-  div2.appendChild(zipcode)
+  // div2.appendChild(street)
+  // div2.appendChild(suite)
+  // div2.appendChild(city)
+  // div2.appendChild(zipcode)
 
-  const geo =document.createElement('div')
-  const lat =document.createElement('p')
-  lat.textContent= company_details.address.geo.lat
-  const lng =document.createElement('p')
-  lng.textContent= company_details.address.geo.lng
+  // const geo =document.createElement('div')
+  // const lat =document.createElement('p')
+  // lat.textContent= company_details.address.geo.lat
+  // const lng =document.createElement('p')
+  // lng.textContent= company_details.address.geo.lng
 
-  geo.appendChild(lat)
-  geo.appendChild(lng)
+  // geo.appendChild(lat)
+  // geo.appendChild(lng)
 
-  const div3 =document.createElement('div')
-  const phone =document.createElement('p')
-  phone.textContent= company_details.phone
-  const aweb =document.createElement('a')
-  aweb.href= company_details.website
-  aweb.textContent= company_details.website
+  // const div3 =document.createElement('div')
+  // const phone =document.createElement('p')
+  // phone.textContent= company_details.phone
+  // const aweb =document.createElement('a')
+  // aweb.href= company_details.website
+  // aweb.textContent= company_details.website
 
-  div3.appendChild(phone)
-  div3.appendChild(aweb)
+  // div3.appendChild(phone)
+  // div3.appendChild(aweb)
 
-  const company_tittle =document.createElement('div')
-  const companyName =document.createElement('h1')
-  companyName.textContent= company_details.company.name
-  const catchPhrase =document.createElement('h3')
-  catchPhrase.textContent= company_details.company.catchPhrase
-  const bs =document.createElement('p')
-  bs.textContent= company_details.company.bs
+  // const company_tittle =document.createElement('div')
+  // const companyName =document.createElement('h1')
+  // companyName.textContent= company_details.company.name
+  // const catchPhrase =document.createElement('h3')
+  // catchPhrase.textContent= company_details.company.catchPhrase
+  // const bs =document.createElement('p')
+  // bs.textContent= company_details.company.bs
 
-  company_tittle.appendChild(companyName)
-  company_tittle.appendChild(catchPhrase)
-  company_tittle.appendChild(bs)
+  // company_tittle.appendChild(companyName)
+  // company_tittle.appendChild(catchPhrase)
+  // company_tittle.appendChild(bs)
 
   div.appendChild(image)
   div.appendChild(myId)
   div.appendChild(h1)
   div.appendChild(h2)
   div.appendChild(aEmail)
-  div.appendChild(div2)
-  div.appendChild(geo)
-  div.appendChild(div3)
-  div.appendChild(company_tittle)
+  // div.appendChild(div2)
+  // div.appendChild(geo)
+  // div.appendChild(div3)
+  // div.appendChild(company_tittle)
   div.className='info'
   
   
